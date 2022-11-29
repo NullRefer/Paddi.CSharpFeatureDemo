@@ -5,7 +5,7 @@ namespace Paddi.CSharpFeatureDemo.VersionNight.Record
         public string Name { get; set; }
         public int Age { get; set; }
     }
-    
+
     internal record Record2(string Name, int Age);
 
     internal record Record3

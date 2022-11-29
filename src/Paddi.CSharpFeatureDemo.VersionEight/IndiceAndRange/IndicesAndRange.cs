@@ -4,7 +4,7 @@ namespace Paddi.CSharpFeatureDemo.VersionEight.IndicesAndRange
     {
         static void Output()
         {
-            var words = new string[] 
+            var words = new string[]
             {
                 "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"
             };
