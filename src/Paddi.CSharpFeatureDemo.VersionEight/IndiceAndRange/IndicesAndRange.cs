@@ -2,7 +2,7 @@ namespace Paddi.CSharpFeatureDemo.VersionEight.IndicesAndRange
 {
     internal class IndicesAndRange
     {
-        static void Output()
+        private static void Output()
         {
             var words = new string[]
             {

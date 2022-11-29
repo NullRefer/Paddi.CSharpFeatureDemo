@@ -2,7 +2,7 @@ namespace Paddi.CSharpFeatureDemo.VersionEight.NullCoalescingAssignment
 {
     internal class NullCoalescingAssignment
     {
-        static void Output()
+        private static void Output()
         {
             string anNullString = null;
             anNullString ??= "will be assigned";
