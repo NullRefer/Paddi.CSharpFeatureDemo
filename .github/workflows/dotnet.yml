@@ -1,0 +1,25 @@
+name: auto format code
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  dotnet-format:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+    
+    - name: add dotnet-format
+      uses: xt0rted/dotnet-format-problem-matcher@v1
+      
+    - name: Restore dotnet tools
+      uses: xt0rted/dotnet-tool-restore@v1
+
+    - name: Run dotnet format
+      uses: xt0rted/dotnet-format@v1
