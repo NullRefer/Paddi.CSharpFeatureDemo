@@ -23,6 +23,6 @@ namespace Paddi.CSharpFeatureDemo.VersionEight.ReadonlyMember
         //     Y += yOffset;
         // }
 
-        public readonly override string ToString() => $"{X}, {Y} is {Distance} from the origin";
+        public override readonly string ToString() => $"{X}, {Y} is {Distance} from the origin";
     }
 }

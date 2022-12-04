@@ -9,15 +9,12 @@ namespace Paddi.CSharpFeatureDemo.VersionEight.PatternMatching
             Yellow,
         }
 
-        public static string GetRainbowString(Rainbow rainbow)
+        public static string GetRainbowString(Rainbow rainbow) => rainbow switch
         {
-            return rainbow switch
-            {
-                Rainbow.Red => "Red",
-                Rainbow.Orange => "Orange",
-                Rainbow.Yellow => "Yellow",
-                _ => "Default",
-            };
-        }
+            Rainbow.Red => "Red",
+            Rainbow.Orange => "Orange",
+            Rainbow.Yellow => "Yellow",
+            _ => "Default",
+        };
     }
 }
