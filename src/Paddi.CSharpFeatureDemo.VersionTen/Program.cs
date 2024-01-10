@@ -2,8 +2,5 @@
 
 internal class Program
 {
-    private static void Main(string[] args)
-    {
-        new CallerArgumentExpression.CallerArgumentExpressionFeat().Run();
-    }
+    private static void Main(string[] args) => new CallerArgumentExpression.CallerArgumentExpressionFeat().Run();
 }
