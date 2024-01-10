@@ -13,7 +13,7 @@ internal class CollectionExpression
 
         Console.WriteLine();
 
-        int[] arr2 = [..arr, 1, 2, 3, ..arr, ..arr];
+        int[] arr2 = [.. arr, 1, 2, 3, .. arr, .. arr];
         Console.WriteLine("Combined arr: ");
         foreach (var item in arr2)
         {
