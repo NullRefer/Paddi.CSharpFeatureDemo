@@ -16,7 +16,7 @@ internal class ExtendPropertyPattern
             Console.WriteLine("Bingo");
         }
 
-        if (record2 is { InnerRecord.Name : "Name" })
+        if (record2 is { InnerRecord.Name: "Name" })
         {
             Console.WriteLine("Bingo!!!");
         }
