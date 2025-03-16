@@ -8,10 +8,10 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v3
-    - name: setup .NET 6
+    - name: setup .NET 8
       uses: actions/setup-dotnet@v3.0.3
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 8.0.x
     - name: build
       run: dotnet build
     - name: format
@@ -34,4 +34,4 @@ jobs:
         git log -1
         remote_repo="https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
         git push "${remote_repo}" HEAD:${GITHUB_REF}
-  
+
