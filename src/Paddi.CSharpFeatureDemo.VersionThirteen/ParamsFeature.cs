@@ -29,7 +29,7 @@ public static class ParamsFeature
         {
             sum += number;
         }
-        
+
         return sum;
     }
 }
