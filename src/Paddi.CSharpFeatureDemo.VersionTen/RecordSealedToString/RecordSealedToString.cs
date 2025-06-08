@@ -12,7 +12,7 @@ internal class RecordSealedToString
 
     internal record TestRecord2 : TestRecord1
     {
-        public new string ToString() => Name;
+        // public new string ToString() => Name;
     }
 
     internal void Run()

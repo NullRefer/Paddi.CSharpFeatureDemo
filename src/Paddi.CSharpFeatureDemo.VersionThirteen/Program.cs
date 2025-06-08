@@ -5,5 +5,3 @@ ParamsFeature.Run();
 NewLockObject.Run();
 
 ImplicitIndexAccess.Run();
-
-FieldKeyword.Run();
