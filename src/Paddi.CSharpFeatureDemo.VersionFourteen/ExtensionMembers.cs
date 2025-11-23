@@ -29,7 +29,7 @@ public static class EnumerableExtensions
             return !source.Any();
         }
     }
-    
+
     // Normal static method for class
     public static bool NormalIsEmptyMethod<T>(this IEnumerable<T> source) => !source.Any();
 }
